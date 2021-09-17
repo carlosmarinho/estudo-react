@@ -1,15 +1,10 @@
 import React from "react";
 import { Route, Switch, BrowserRouter } from "react-router-dom";
 import { Provider } from "react-redux";
-import { applyMiddleware, createStore } from "redux";
-import reduxThunk from 'redux-thunk';
+import { store } from "state/store";
 import Header from "components/common/Header";
 import Home from "pages/Home";
 import Posts from "pages/Posts";
-import reducers from 'state/reducers'
-
-const store = createStore(reducers, {}, applyMiddleware(reduxThunk));
-
 
 const App = () => {
   return (
