@@ -59,6 +59,7 @@ const postReducers = (state: PostState = initialState, action: ActionPost) => {
         ...state,
         error: action.payload,
         loading: false,
+        success: false,
       };
     default:
       return state;
