@@ -11,7 +11,6 @@ const SimulatorForm = () => {
             natureza: '',
             humanas: '',
             redacao: ''
-
         },
         onSubmit: values => {
             alert(JSON.stringify(values, null, 2));

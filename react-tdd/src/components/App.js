@@ -10,7 +10,7 @@ const users = [
 function App() {
   return (
     <>
-      <div>Minha aplicação</div>
+      <div>Simulador SISU</div>
       <SimulatorForm />
     </>
   );
