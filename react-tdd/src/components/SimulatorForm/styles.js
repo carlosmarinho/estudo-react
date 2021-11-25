@@ -6,16 +6,17 @@ export const Form = styled.form`
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 1200px;
   padding: 30px 50px;
 `;
 
 export const Row = styled.div`
-  border: 1px solid red;
   display: flex;
+  align-items: flex-start;
   flex-direction: column;
-  width:100%
-  max-heigth:5px;
+  width: 100%;
+  max-height: 90px;
+  flex-wrap: wrap;
 `;
 
 export const Input = styled.input`
@@ -23,7 +24,7 @@ export const Input = styled.input`
   border-radius: 7px;
   box-sizing: border-box;
   padding: 10px;
-  width: 20%;
+  width: 16%;
   margin-right: 10px;
 `;
 
@@ -38,6 +39,12 @@ export const Label = styled.label`
 `;
 
 export const Button = styled.button`
-  width:50%;
-  border-radius:7px;
+width: 50%;
+border-radius: 5px;
+padding: 10px;
+margin: 10px auto 0;
+background-color: #ff6315;
+border: 1px solid #fff;
+color: #fff;
+font-weight: bold;
 `;
