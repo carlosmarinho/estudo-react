@@ -39,6 +39,7 @@ const SimulatorForm = () => {
                     value={formik.values.linguagens}
                 />
 
+
                 <Label htmlFor="natureza">Natureza</Label>
                 <Input
                     id="natureza"
@@ -56,16 +57,17 @@ const SimulatorForm = () => {
                     onChange={formik.handleChange}
                     value={formik.values.humanas}
                 />
+
+                <Label htmlFor="redacao">Redação</Label>
+                <Input
+                    id="redacao"
+                    name="redacao"
+                    type="text"
+                    onChange={formik.handleChange}
+                    value={formik.values.redacao}
+                />
             </Row>
 
-            <Label htmlFor="redacao">Redação</Label>
-            <Input
-                id="redacao"
-                name="redacao"
-                type="text"
-                onChange={formik.handleChange}
-                value={formik.values.redacao}
-            />
             <Button type="submit">Simular</Button>
 
         </Form>
