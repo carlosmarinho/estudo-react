@@ -1,4 +1,5 @@
 import Users from "./Users";
+import SimulatorForm from "./SimulatorForm/SimulatorForm";
 
 const users = [
   { id: 1, name: "Gripp" },
@@ -9,8 +10,8 @@ const users = [
 function App() {
   return (
     <>
-      <div>Minha aplicação</div>
-      <Users users={users} />
+      <div>Simulador SISU</div>
+      <SimulatorForm />
     </>
   );
 }
