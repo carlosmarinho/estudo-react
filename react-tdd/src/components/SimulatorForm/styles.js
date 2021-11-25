@@ -4,7 +4,6 @@ export const Form = styled.form`
   border: 1px solid #dedede;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   margin: 0 auto;
   max-width: 800px;
   padding: 30px 50px;
@@ -33,7 +32,7 @@ export const Label = styled.label`
   font-family: sans-serif;
   font-size: 14px;
   font-weight: 500;
-  margin: 10px 10px 0 0;
+  margin: 10px 10px 10px 0;
   width: 10%;
 `;
 
